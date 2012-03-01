@@ -908,7 +908,7 @@
 
         $(buttons).each(function(){
             $(this).removeClass('ui-state-disabled');
-            $(this).attr('disabled', '');
+            $(this).removeAttr('disabled');
         });
 
     };
